@@ -32,7 +32,7 @@
     </script>
     <script>
         window.onscroll = function () {
-            var winHeight = window.innerHeight;
+            var winHeight = window.innerHeight + 5;
             var body = document.body;
             var html = document.documentElement;
             var docHeight = Math.max(body.scrollHeight,
@@ -41,9 +41,8 @@
 
             var value = body.scrollTop || html.scrollTop;
             var max = docHeight - winHeight;
-            console.log(`max ` + 'max');
 
-            if (value === max) {
+            if (value >= max) {
                 window.parent.postMessage('scrolledToBottom', '*');
             }
         };
