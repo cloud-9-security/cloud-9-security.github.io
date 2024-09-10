@@ -1,7 +1,7 @@
 // Script to dynamically load the ToS body content
 document.addEventListener("DOMContentLoaded", function() {
     const tosBodySection = document.getElementById("tos-body");
-    fetch('/tos/v0.01/tos-body-v0.01.html')  // Adjust path depending on the version
+    fetch('/tos/v0.0.1/tos-body-v0.0.1.html')  // Adjust path depending on the version
       .then(response => response.text())
       .then(bodyContent => {
         tosBodySection.innerHTML = bodyContent;
