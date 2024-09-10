@@ -6,15 +6,16 @@
   <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-    <header>
-        <h1 id="title">Terms of Service</h1>
-    </header>
-
+    <section>
+        <p><strong>Version:</strong> <span id="version"></span></p>
+        <p><strong>Published:</strong> <span id="published-on"></span></p>
+        <p><strong>Effective:</strong> <span id="effective-date"></span></p>
+    </section>
     <!-- Container for the dynamically loaded ToS body content -->
     <section id="tos-body">
         Loading ToS...
     </section>
-    
+
     <script type="module">
         import { renderTosContent, renderMetaInfo } from '/scripts/helpers.js';
 
@@ -26,6 +27,6 @@
             renderMetaInfo(currentVersion);
         });
     </script>
-    <script src="/scripts/scroll.js"> </script>
+    <script src="/scripts/scroll.js"></script>
 </body>
 </html>

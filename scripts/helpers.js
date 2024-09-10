@@ -23,7 +23,9 @@ export const renderMetaInfo = async (version) => {
         .then(response => response.json())
         .then(data => {
             document.title = `Terms of Service - Version ${version}`;
-            //document.getElementById('effective-date').innerText = data.effective_date;
-            document.getElementById('title').innerText = `Terms of Service - Version ${data.version}`;
+            document.getElementById('effective-date').innerText = data.effective_date;
+            document.getElementById('version').innerText = data.version;
+            document.getElementById('published-on').innerText = data.published_on;
+            //document.getElementById('title').innerText = `Terms of Service - Version ${data.version}`;
         });
 }

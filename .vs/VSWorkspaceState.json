@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\scripts",
+    "\\terms-of-service",
+    "\\tos",
+    "\\tos\\v0.0.1"
   ],
-  "SelectedNode": "\\C:\\SourceCode\\cloud-9-security-pages",
+  "SelectedNode": "\\scripts\\helpers.js",
   "PreviewInSolutionExplorer": false
 }
