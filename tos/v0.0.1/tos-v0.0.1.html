@@ -23,7 +23,7 @@
   <script src="/scripts/load-body.js"></script>
   <script>
     // Load the metadata
-    fetch('/tos/v1/meta.json')
+    fetch('/tos/v0.0.1/meta-v0.0.1.json')
       .then(response => response.json())
       .then(data => {
         document.title = `Terms of Service - Version ${data.version}`;
