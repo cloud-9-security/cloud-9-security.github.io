@@ -7,28 +7,43 @@
   <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-  <header>
-    <h1>Terms of Service - Version 0.0.1</h1>
-  </header>
+    <header>
+        <h1>Terms of Service - Version 0.0.1</h1>
+    </header>
 
-  <!-- Container for the dynamically loaded ToS body content -->
-  <section id="tos-body">
-    Loading ToS...
-  </section>
+    <!-- Container for the dynamically loaded ToS body content -->
+    <section id="tos-body">
+        Loading ToS...
+    </section>
 
-  <footer>
-    <p>Effective Date: <span id="effective-date"></span></p>
-  </footer>
+    <footer>
+        <p>Effective Date: <span id="effective-date"></span></p>
+    </footer>
 
-  <script src="/scripts/load-body.js"></script>
-  <script>
-    // Load the metadata
-    fetch('/tos/v0.0.1/meta-v0.0.1.json')
-      .then(response => response.json())
-      .then(data => {
-        document.title = `Terms of Service - Version ${data.version}`;
-        document.getElementById('effective-date').innerText = data.effective_date;
-      });
-  </script>
+    <script src="/scripts/load-body.js"></script>
+    <script>
+        // Load the metadata
+        fetch('/tos/v0.0.1/meta-v0.0.1.json')
+            .then(response => response.json())
+            .then(data => {
+                document.title = `Terms of Service - Version ${data.version}`;
+                document.getElementById('effective-date').innerText = data.effective_date;
+            });
+    </script>
+    <script>
+        window.onscroll = function () {
+            var winHeight = window.innerHeight;
+            var body = document.body;
+            var html = document.documentElement;
+            var docHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+            var value = body.scrollTop || html.scrollTop;
+            var max = docHeight - winHeight;
+
+            if (value === max) {
+                window.parent.postMessage('scrolledToBottom', '*');
+            }
+        };
+    </script>
+
 </body>
 </html>
