@@ -24,6 +24,6 @@ export const renderMetaInfo = async (version) => {
         .then(data => {
             document.title = `Terms of Service - Version ${version}`;
             //document.getElementById('effective-date').innerText = data.effective_date;
-            document.getElementById('title').innerText = version;
+            document.getElementById('title').innerText = `Terms of Service - Version ${data.version}`;
         });
 }
