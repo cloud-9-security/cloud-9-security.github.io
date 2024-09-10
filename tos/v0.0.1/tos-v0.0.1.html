@@ -35,14 +35,13 @@
             var winHeight = window.innerHeight + 5;
             var body = document.body;
             var html = document.documentElement;
-            var docHeight = Math.max(body.scrollHeight,
+            var scrollHeight = Math.max(body.scrollHeight,
                 body.offsetHeight, html.clientHeight,
                 html.scrollHeight, html.offsetHeight);
 
-            var value = body.scrollTop || html.scrollTop;
-            var max = docHeight - winHeight;
-
-            if (value >= max) {
+            var scrollTop = body.scrollTop || html.scrollTop;
+            
+            if (scrollHeight - scrollTop <= winHeight) {
                 window.parent.postMessage('scrolledToBottom', '*');
             }
         };
