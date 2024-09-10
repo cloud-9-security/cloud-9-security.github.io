@@ -3,49 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terms of Service - Version 1.0</title>
   <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
     <header>
-        <h1>Terms of Service - Version 0.0.1</h1>
+        <h1 id="title">Terms of Service</h1>
     </header>
 
     <!-- Container for the dynamically loaded ToS body content -->
     <section id="tos-body">
         Loading ToS...
     </section>
+    
+    <script type="module">
+        import { renderTosContent, renderMetaInfo } from './helpers.js';
 
-    <footer>
-        <p>Effective Date: <span id="effective-date"></span></p>
-    </footer>
+        const currentVersion = 'v0.0.1';
 
-    <script src="/scripts/load-body.js"></script>
-    <script>
-        // Load the metadata
-        fetch('/tos/v0.0.1/meta-v0.0.1.json')
-            .then(response => response.json())
-            .then(data => {
-                document.title = `Terms of Service - Version ${data.version}`;
-                document.getElementById('effective-date').innerText = data.effective_date;
-            });
+        document.addEventListener("DOMContentLoaded", function () {
+            await renderTosContent(currentVersion);
+
+            await renderMetaInfo(currentVersion);
+        });
     </script>
-    <script>
-        window.onscroll = function () {
-            var winHeight = window.innerHeight + 5;
-            var body = document.body;
-            var html = document.documentElement;
-            var scrollHeight = Math.max(body.scrollHeight,
-                body.offsetHeight, html.clientHeight,
-                html.scrollHeight, html.offsetHeight);
-
-            var scrollTop = body.scrollTop || html.scrollTop;
-            
-            if (scrollHeight - scrollTop <= winHeight) {
-                window.parent.postMessage('scrolledToBottom', '*');
-            }
-        };
-    </script>
-
+    <script src="/scripts/scroll.js"> </script>
 </body>
 </html>
