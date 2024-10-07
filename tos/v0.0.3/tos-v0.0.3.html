@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <section class="meta-info">
+        <p><strong>Version:</strong> <span id="version">Loading...</span></p>
+        <p><strong>Published:</strong> <span id="published-on">Loading...</span></p>
+        <p><strong>Effective:</strong> <span id="effective-date">Loading...</span></p>
+    </section>
+    <!-- Container for the dynamically loaded ToS body content -->
+    <section id="tos-body">
+        Loading ToS...
+    </section>
+
+    <script type="module">
+        import { renderTosContent, renderMetaInfo } from '/scripts/helpers.js';
+
+        const currentVersion = '0.0.3';
+
+        document.addEventListener("DOMContentLoaded", function () {
+            renderTosContent(currentVersion);
+
+            renderMetaInfo(currentVersion);
+        });
+    </script>
+    <script src="/scripts/scroll.js"></script>
+</body>
+</html>
