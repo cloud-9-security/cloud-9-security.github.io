@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\SourceCode\\cloud-9-security-pages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SourceCode\\cloud-9-security-pages\\scripts\\helpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\helpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SourceCode\\cloud-9-security-pages\\tos\\v0.0.1\\tos-v0.0.1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tos\\v0.0.1\\tos-v0.0.1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SourceCode\\cloud-9-security-pages\\scripts\\scroll.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\scroll.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SourceCode\\cloud-9-security-pages\\tos\\v0.0.1\\meta-v0.0.1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tos\\v0.0.1\\meta-v0.0.1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SourceCode\\cloud-9-security-pages\\tos\\v0.0.1\\tos-body-v0.0.1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tos\\v0.0.1\\tos-body-v0.0.1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SourceCode\\cloud-9-security-pages\\styles\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:styles\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SourceCode\\cloud-9-security-pages\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SourceCode\\cloud-9-security-pages\\CNAME||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CNAME||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SourceCode\\cloud-9-security-pages\\scripts\\helpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\helpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SourceCode\\cloud-9-security-pages\\tos\\v0.0.1\\meta-v0.0.1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tos\\v0.0.1\\meta-v0.0.1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SourceCode\\cloud-9-security-pages\\terms-of-service\\v0.0.1\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:terms-of-service\\v0.0.1\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 27,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "scroll.js",
-              "DocumentMoniker": "C:\\SourceCode\\cloud-9-security-pages\\scripts\\scroll.js",
-              "RelativeDocumentMoniker": "scripts\\scroll.js",
-              "ToolTip": "C:\\SourceCode\\cloud-9-security-pages\\scripts\\scroll.js",
-              "RelativeToolTip": "scripts\\scroll.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-10T09:35:26.286Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -147,20 +130,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "helpers.js",
-              "DocumentMoniker": "C:\\SourceCode\\cloud-9-security-pages\\scripts\\helpers.js",
-              "RelativeDocumentMoniker": "scripts\\helpers.js",
-              "ToolTip": "C:\\SourceCode\\cloud-9-security-pages\\scripts\\helpers.js",
-              "RelativeToolTip": "scripts\\helpers.js",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-10T09:16:38.131Z",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\SourceCode\\cloud-9-security-pages\\styles\\style.css",
+              "RelativeDocumentMoniker": "styles\\style.css",
+              "ToolTip": "C:\\SourceCode\\cloud-9-security-pages\\styles\\style.css",
+              "RelativeToolTip": "styles\\style.css",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-10T10:46:18.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\SourceCode\\cloud-9-security-pages\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -173,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "meta-v0.0.1.json",
               "DocumentMoniker": "C:\\SourceCode\\cloud-9-security-pages\\tos\\v0.0.1\\meta-v0.0.1.json",
               "RelativeDocumentMoniker": "tos\\v0.0.1\\meta-v0.0.1.json",
@@ -186,20 +169,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "tos-body-v0.0.1.html",
-              "DocumentMoniker": "C:\\SourceCode\\cloud-9-security-pages\\tos\\v0.0.1\\tos-body-v0.0.1.html",
-              "RelativeDocumentMoniker": "tos\\v0.0.1\\tos-body-v0.0.1.html",
-              "ToolTip": "C:\\SourceCode\\cloud-9-security-pages\\tos\\v0.0.1\\tos-body-v0.0.1.html",
-              "RelativeToolTip": "tos\\v0.0.1\\tos-body-v0.0.1.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "DocumentIndex": 5,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\SourceCode\\cloud-9-security-pages\\terms-of-service\\v0.0.1\\index.html",
+              "RelativeDocumentMoniker": "terms-of-service\\v0.0.1\\index.html",
+              "ToolTip": "C:\\SourceCode\\cloud-9-security-pages\\terms-of-service\\v0.0.1\\index.html",
+              "RelativeToolTip": "terms-of-service\\v0.0.1\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-10T07:31:12.817Z",
+              "WhenOpened": "2024-09-10T10:27:38.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "tos-v0.0.1.html",
               "DocumentMoniker": "C:\\SourceCode\\cloud-9-security-pages\\tos\\v0.0.1\\tos-v0.0.1.html",
               "RelativeDocumentMoniker": "tos\\v0.0.1\\tos-v0.0.1.html",
@@ -212,15 +195,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CNAME",
-              "DocumentMoniker": "C:\\SourceCode\\cloud-9-security-pages\\CNAME",
-              "RelativeDocumentMoniker": "CNAME",
-              "ToolTip": "C:\\SourceCode\\cloud-9-security-pages\\CNAME",
-              "RelativeToolTip": "CNAME",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-10T06:54:03.545Z",
+              "DocumentIndex": 3,
+              "Title": "helpers.js",
+              "DocumentMoniker": "C:\\SourceCode\\cloud-9-security-pages\\scripts\\helpers.js",
+              "RelativeDocumentMoniker": "scripts\\helpers.js",
+              "ToolTip": "C:\\SourceCode\\cloud-9-security-pages\\scripts\\helpers.js",
+              "RelativeToolTip": "scripts\\helpers.js",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-10T09:57:52.709Z",
               "EditorCaption": ""
             }
           ]

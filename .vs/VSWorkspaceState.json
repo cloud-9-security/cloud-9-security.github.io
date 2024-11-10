@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\scripts",
+    "\\styles",
     "\\terms-of-service",
+    "\\terms-of-service\\v0.0.1",
     "\\tos",
     "\\tos\\v0.0.1"
   ],
-  "SelectedNode": "\\scripts\\helpers.js",
+  "SelectedNode": "\\tos\\v0.0.1\\tos-v0.0.1.html",
   "PreviewInSolutionExplorer": false
 }
